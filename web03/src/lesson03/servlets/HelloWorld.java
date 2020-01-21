@@ -35,8 +35,8 @@ public class HelloWorld implements Servlet{
 	
 	@Override
 	public String getServletInfo() {
-		System.out.pringln("getServletInfo() 호출됨");
-		return this.config;
+		System.out.println("getServletInfo() 호출됨");
+		return "version=1.0; author=kimdahee";
 	}
 	
 }
